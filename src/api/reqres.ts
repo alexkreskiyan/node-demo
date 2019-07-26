@@ -5,7 +5,7 @@ const baseUri = 'https://reqres.in/api'
 
 
 export const geUser = async (id: number): Promise<User> => {
-    const response = await fetch(`${baseUri}/user/${id}`)
+    const response = await fetch(`${baseUri}/users/${id}`)
     const data: Data<User> = await response.json()
 
     return data.data
