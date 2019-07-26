@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"noImplicitAny": true,
+		"outDir": "./dist",
+		"inlineSourceMap": false
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"src/**/__tests__/*"
+	]
+}
